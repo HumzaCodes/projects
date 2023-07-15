@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+ .container {
+     /* background-image: url(images/bg-pic.png) , url(images/bg-logo.png); */
+     background-image: url(images/man-earn.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100vw;
+     height: 100vh;
+     /* background-image: url(images/bg-logo.png); */
+
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     margin-right: 25px;
+     margin-left: 25px;
+     padding-top: 15px;
+     background-color: #0cc6ff6f;
+     box-shadow: #3293FF;
+
+ }
+
+ .container nav ul {
+     display: flex;
+     align-items: center;
+     list-style: none;
+
+ }
+
+ nav ul li {
+     margin: 0px 16px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-weight: bold;
+     font-family: 'Russo One', sans-serif;
+     color: black;
+ }
+
+ .section1 {
+     width: 100vw;
+ }
+
+ .section1 h2 {
+     margin-top: 70px;
+     margin-left: 500px;
+     font-size: 2rem;
+     background-color: white;
+     display: inline-block;
+     font-weight: bold;
+
+ }
+
+ .section1 h1 {
+     margin-top: 25px;
+     margin-left: 470px;
+     font-size: 2.5rem;
+     background-color: white;
+     display: inline-block;
+     font-weight: bold;
+     font-family: 'Russo One', sans-serif;
+ }
+
+ .section1 h3 {
+     margin-top: 25px;
+     margin-left: 600px;
+     font-size: 1.5rem;
+     background-color: white;
+     display: inline-block;
+     font-weight: bold;
+     color: #3293FF;
+     /* font-family: 'Russo One', sans-serif; */
+
+ }    
+ .section1 h4 {
+    margin-top: 25px;
+    margin-left: 585px;
+    font-size: 1.5rem;
+    background-color: white;
+    display: inline-block;
+    font-weight: bold;
+    color: #3293FF;}
+ 
+ .section1 .btn{
+    margin-top: 25px;
+    margin-left: 580px;
+       padding: 20px 25px;
+       background-color: #3293FF;
+       color: white;
+       font-weight: bold;
+       border-color: #3293FF;
+       font-size: 1.2rem;
+       /* font-family: 'Russo One', sans-serif; */
+ }   
+ 
